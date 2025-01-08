@@ -1,0 +1,14 @@
+html{
+ background-color: rgb(16, 16, 16);
+}
+.sprite{
+ height: 100px;
+ width: 100px;
+ position: absolute;
+ left: 0;
+ background-color: blueviolet;
+ transition:background-color 0.5s ease;
+}
+.playerMove{
+ background-color: brown;
+}

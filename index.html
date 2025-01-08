@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="css/global.css">
+ 
+ <script src="config/grid.js"></script>
+ <script src="config/player.js"></script>
+
+ <script src="events/onkeydown.js"></script>
+
+ <script src="player/events/onclick.js"></script> 
+
+ <script src="init/turbo.js"></script>
+</head>
+<body onkeydown="global_onkeydown(event);">
+ <div id="player" class="sprite" onclick="player.events.onclick();"></div>
+</body>
+</html>
